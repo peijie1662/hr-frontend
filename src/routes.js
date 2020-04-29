@@ -8,6 +8,7 @@ import Hz from './views/hz.vue'
 import Dk from './views/dk.vue'
 import DkHis from './views/dkHis.vue'
 import Nx from './views/nx.vue'
+import Dxjd from './views/dxjd.vue'
 
 let routes = [{
     path: '/login',
@@ -56,6 +57,19 @@ let routes = [{
     children: [
         {
             path: '/nx', component: Nx, name: '年休一览',
+            meta: { dis: false }
+        }
+    ]
+},
+{
+    path: '/',
+    component: Home,
+    name: '',
+    iconCls: 'el-icon-tickets',
+    leaf: true,
+    children: [
+        {
+            path: '/dxjd', component: Dxjd, name: '调休进度',
             meta: { dis: false }
         }
     ]

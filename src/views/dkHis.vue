@@ -63,7 +63,8 @@ export default {
         { gh: "1208", id: "XZL", xm: "徐梓磊" },
         { gh: "1094", id: "CLP", xm: "陈丽萍" },
         { gh: "0172", id: "JQF", xm: "姜清峰" },
-        { gh: "0162", id: "HQM", xm: "何琪敏" }
+        { gh: "0162", id: "HQM", xm: "何琪敏" },
+        { gh: "2065", id: "WMH", xm: "王鸣浩" }
       ],
       dkhis: [], //渲染数据
       odkhis: [], //原始数据

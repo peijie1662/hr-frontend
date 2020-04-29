@@ -22,3 +22,4 @@ export const getNxjl = params => {return axios.post(`${base}/nxhis`,params).then
 export const getNxgk = params => {return axios.post(`${base}/nxgk`,params).then(res => res.data);};
 export const ljjs = params => {return axios.post(`${base}/ljjs`,params).then(res => res.data);};
 export const dxjz = params => {return axios.post(`${base}/dxjz`,params).then(res => res.data);};
+export const dxjd = params => {return axios.post(`${base}/dxjd`,params).then(res => res.data);};
